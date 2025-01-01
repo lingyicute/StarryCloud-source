@@ -1037,7 +1037,7 @@ describe("index reducer", () => {
         const action = changeSubTitle("test sub title");
         await store.dispatch(action);
         expect(store.getActions()).toEqual([setSubtitle("test sub title")]);
-        expect(document.title).toEqual("test sub title - Cloudreve");
+        expect(document.title).toEqual("test sub title - Starry Cloud");
     });
 
     it("should handle SET_SUBTITLE", () => {

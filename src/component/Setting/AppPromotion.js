@@ -138,7 +138,7 @@ export default function AppPromotion() {
                                     <Box
                                         component={"a"}
                                         href={
-                                            "https://apps.apple.com/us/app/cloudreve/id1619480823"
+                                            "https://92li.us.kg/"
                                         }
                                         target={"_blank"}
                                     >
@@ -186,20 +186,6 @@ export default function AppPromotion() {
                                 width={"92.4%"}
                                 height={"96%"}
                             >
-                                <Box
-                                    component={"img"}
-                                    src={
-                                        "https://cloudreve.org/imgs/ios/" +
-                                        (theme.palette.type === "light"
-                                            ? "main.png"
-                                            : "main_dark.jpg")
-                                    }
-                                    alt="Image Description"
-                                    effect="blur"
-                                    width={1}
-                                    height={1}
-                                    className={classes.phoneImage}
-                                />
                             </Box>
                         </Box>
                     </Box>

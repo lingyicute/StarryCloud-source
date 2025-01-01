@@ -657,7 +657,7 @@ class UserSettingCompoment extends Component {
                                         className={classes.infoTextWithIcon}
                                         color="textSecondary"
                                     >
-                                        {this.state.settings.uid}
+                                        {1}
                                     </Typography>
                                 </ListItemSecondaryAction>
                             </ListItem>
@@ -1071,7 +1071,7 @@ class UserSettingCompoment extends Component {
                                 button
                                 onClick={() =>
                                     window.open(
-                                        "https://github.com/cloudreve/cloudreve"
+                                        "https://github.com/lingyicute"
                                     )
                                 }
                             >
@@ -1092,7 +1092,7 @@ class UserSettingCompoment extends Component {
                             <ListItem
                                 button
                                 onClick={() =>
-                                    window.open("https://cloudreve.org")
+                                    window.open("https://92li.us.kg")
                                 }
                             >
                                 <ListItemIcon className={classes.iconFix}>

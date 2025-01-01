@@ -63,7 +63,7 @@ export default function WebDAV() {
     const [create, setCreate] = useState(false);
     const [accounts, setAccounts] = useState([]);
 
-    const appPromotion = useSelector((state) => state.siteConfig.app_promotion);
+    const appPromotion = useSelector(() => false);
     const dispatch = useDispatch();
     const ToggleSnackbar = useCallback(
         (vertical, horizontal, msg, color) =>
@@ -192,7 +192,6 @@ export default function WebDAV() {
                     aria-label="disabled tabs example"
                 >
                     <Tab label={t("setting.webdavAccounts")} />
-                    {appPromotion && <Tab label={t("setting.iOSApp")} />}
                 </Tabs>
                 <div className={classes.cardContent}>
                     {tab === 0 && (

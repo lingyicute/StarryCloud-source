@@ -331,7 +331,7 @@ export default function Index() {
                         />
                         <div className={classes.title}>
                             <Typography className={classes.cloudreve}>
-                                Cloudreve
+                                Starry Cloud
                             </Typography>
                             <Typography className={classes.version}>
                                 {version.backend}{" "}
@@ -347,7 +347,7 @@ export default function Index() {
                             <ListItem
                                 button
                                 onClick={() =>
-                                    window.open("https://cloudreve.org")
+                                    window.open("https://92li.us.kg")
                                 }
                             >
                                 <ListItemIcon>
@@ -362,7 +362,7 @@ export default function Index() {
                                 button
                                 onClick={() =>
                                     window.open(
-                                        "https://github.com/cloudreve/cloudreve"
+                                        "https://github.com/lingyicute"
                                     )
                                 }
                             >
@@ -377,7 +377,7 @@ export default function Index() {
                             <ListItem
                                 button
                                 onClick={() =>
-                                    window.open("https://docs.cloudreve.org/")
+                                    window.open("https://92li.us.kg/")
                                 }
                             >
                                 <ListItemIcon>
@@ -423,7 +423,7 @@ export default function Index() {
                             <ListItem
                                 button
                                 onClick={() =>
-                                    window.open("https://cloudreve.org/pro")
+                                    window.open("https://92li.us.kg")
                                 }
                             >
                                 <ListItemIcon style={{ color: "#ff789d" }}>
@@ -449,7 +449,7 @@ export default function Index() {
                                         alignItems="flex-start"
                                         onClick={() =>
                                             window.open(
-                                                "https://forum.cloudreve.org/d/" +
+                                                "https://92li.us.kg/" +
                                                     v.id
                                             )
                                         }

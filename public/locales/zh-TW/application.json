@@ -450,7 +450,7 @@
     "copied": "已複製到剪切板",
     "pleaseManuallyCopy": "當前瀏覽器不支援，請手動複製",
     "webdavAccounts": "WebDAV 帳號管理",
-    "webdavHint": "WebDAV的地址為：{{url}}；登入使用者名稱統一為：{{name}} ；密碼為所建立帳號的密碼。",
+    "webdavHint": "WebDAV是一种网络存储协议。国内的各大网盘普遍不支持这一标准，而在国外它却被广泛应用。许多文件管理器、视频播放器等产品都支持通过 WebDAV 协议访问远程文件，实现跨平台的文件共享与同步。星愿云完美支持这一协议，它的WebDAV的地址是 {{url}}。请使用你的邮箱（{{name}}）作为用户名登录，密码为以下所创建的密码。",
     "annotation": "備註名",
     "rootFolder": "相對根目錄",
     "createdAt": "建立日期",

@@ -406,7 +406,7 @@
     "addRemoteConfigDes": " 在從機端 Starry Cloud 的同級目錄下新增 <0>conf.ini</0> 文件，填入從機配置，啟動/重啟從機端 Starry Cloud。以下為一個可供參考的配置例子，其中金鑰部分已幫您填寫為上一步所生成的。",
     "remoteConfigDifference": "從機端配置檔案格式大致與主站端相同，區別在於：",
     "remoteConfigDifference1": "<0>System</0> 分區下的 <1>mode</1> 欄位必須更改為 <2>slave</2>。",
-    "remoteConfigDifference2": "必須指定 <0>Slave</0> 分區下的 <1>Secret</1> 欄位，其值為第二步裡填寫或生成的金鑰。",
+    "remoteConfigDifference2": "必須指定 <0>Slave</0> 分區下的 <1>Secret</1> 欄位，其值為第两步裡填寫或生成的金鑰。",
     "remoteConfigDifference3": "必須啟動跨域配置，即 <0>CORS</0> 欄位的內容，具體可參考上文範例或官方文件。如果配置不正確，用戶將無法透過 Web 端向從機上傳文件。",
     "inputRemoteAddress": "填寫從機地址。",
     "inputRemoteAddressDes": "如果主站啟用了 HTTPS，從機也需要啟用，並在下方填入 HTTPS 協議的地址。",
@@ -749,8 +749,8 @@
     "password": "密碼",
     "passwordDes": "留空表示不修改",
     "groupDes": "用戶所屬用戶組",
-    "2FASecret": "二步驗證金鑰",
-    "2FASecretDes": "用戶二步驗證器的金鑰，清空表示未啟用。"
+    "2FASecret": "两步驗證金鑰",
+    "2FASecretDes": "用戶两步驗證器的金鑰，清空表示未啟用。"
   },
   "file": {
     "name": "檔案名",

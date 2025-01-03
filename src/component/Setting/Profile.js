@@ -226,7 +226,7 @@ class ProfileCompoment extends Component {
                             <Tab label={t("setting.allShares")} />
                             <Tab label={t("setting.profile")} />
                         </Tabs>
-                        {this.state.listType === 2 && (
+                        {this.state.listType === 1 && (
                             <div className={classes.infoContainer}>
                                 <Grid container spacing={24}>
                                     <Grid
@@ -312,8 +312,7 @@ class ProfileCompoment extends Component {
                                 </Grid>
                             </div>
                         )}
-                        {(this.state.listType === 0 ||
-                            this.state.listType === 1) && (
+                        {this.state.listType === 0 && (
                             <div>
                                 <div className={classes.tableContainer}>
                                     <Table className={classes.table}>

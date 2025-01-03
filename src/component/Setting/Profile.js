@@ -224,7 +224,6 @@ class ProfileCompoment extends Component {
                             centered
                         >
                             <Tab label={t("setting.allShares")} />
-                            <Tab label={t("setting.trendingShares")} />
                             <Tab label={t("setting.profile")} />
                         </Tabs>
                         {this.state.listType === 2 && (

@@ -5,9 +5,9 @@ import {
     AccountArrowRight,
     AccountPlus,
     DesktopMacDashboard,
-    HomeAccount,
     LogoutVariant,
 } from "mdi-material-ui";
+import HomeIcon from "@material-ui/icons/Home";
 import { withRouter } from "react-router-dom";
 import Auth from "../../middleware/Auth";
 import {
@@ -203,7 +203,7 @@ class UserAvatarPopoverCompoment extends Component {
                                     }}
                                 >
                                     <ListItemIcon>
-                                        <HomeAccount />
+                                        <HomeIcon />
                                     </ListItemIcon>
                                     {t("navbar.myProfile")}
                                 </MenuItem>

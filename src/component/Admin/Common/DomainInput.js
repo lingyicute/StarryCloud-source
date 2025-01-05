@@ -28,7 +28,7 @@ export default function DomainInput({ onChange, value, required, label }) {
     useEffect(() => {
         if (protocol === "http://" && window.location.protocol === "https:") {
             setError(
-                "您当前站点启用了 HTTPS ，此处选择 HTTP 可能会导致无法连接。"
+                "星愿云启用了 HTTPS ，此处选择 HTTP 可能会导致无法连接。"
             );
         } else {
             setError("");

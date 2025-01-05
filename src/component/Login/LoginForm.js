@@ -156,7 +156,7 @@ function LoginForm() {
         } else {
             history.push("/home");
         }
-        ToggleSnackbar("top", "right", t("login.success"), "success");
+        ToggleSnackbar("bottom", "left", t("login.success"), "success");
 
         localStorage.removeItem("siteConfigCache");
     };

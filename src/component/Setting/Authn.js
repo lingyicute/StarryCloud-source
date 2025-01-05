@@ -151,7 +151,7 @@ export default function Authn(props) {
             })
             .catch((error) => {
                 console.log(error);
-                ToggleSnackbar("top", "right", error.message, "error");
+                ToggleSnackbar("top", "right", `浏览器报告了一个未知错误：${error.message}`, "error");
             });
     };
 

@@ -45,7 +45,6 @@ export const InitSiteConfig = (rawStore) => {
     // 初始化用户个性配置
     rawStore.siteConfig = initUserConfig(rawStore.siteConfig);
 
-    // 更改站点标题
     document.title = rawStore.siteConfig.title;
 
     return rawStore;

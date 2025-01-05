@@ -134,20 +134,6 @@ export default function AppPromotion() {
                                 <Typography variant="h6" component="p">
                                     {t("downloadOurApp")}
                                 </Typography>
-                                <Box marginTop={1}>
-                                    <Box
-                                        component={"a"}
-                                        href={
-                                            "https://92li.us.kg/"
-                                        }
-                                        target={"_blank"}
-                                    >
-                                        <Box
-                                            component={"img"}
-                                            src={"/static/img/appstore.svg"}
-                                        />
-                                    </Box>
-                                </Box>
                             </li>
                             <li>
                                 <Typography variant="h6" component="p">

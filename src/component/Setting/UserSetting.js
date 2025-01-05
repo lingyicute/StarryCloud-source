@@ -1142,21 +1142,6 @@ class UserSettingCompoment extends Component {
                             </ListItemAvatar>
                             <ListItemText primary={t("setting.uploadImage")} />
                         </ListItem>
-                        <ListItem
-                            button
-                            onClick={this.useGravatar}
-                            disabled={this.state.loading === "gravatar"}
-                        >
-                            <ListItemAvatar>
-                                <Avatar className={classes.userGravatar}>
-                                    <FingerprintIcon />
-                                </Avatar>
-                            </ListItemAvatar>
-                            <ListItemText
-                                className={classes.paddingText}
-                                primary={t("setting.useGravatar")}
-                            />
-                        </ListItem>
                     </List>
                     <DialogActions>
                         <Button onClick={this.handleClose} color="primary">

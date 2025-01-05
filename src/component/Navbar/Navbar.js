@@ -480,7 +480,7 @@ class NavbarCompoment extends Component {
                                         <Divider />
                                         <ListItem
                                             button
-                                            key="个人设置"
+                                            key="设置"
                                             onClick={() =>
                                                 this.props.history.push(
                                                     "/setting?"

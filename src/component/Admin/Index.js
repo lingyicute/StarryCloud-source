@@ -249,7 +249,7 @@ export default function Index() {
                                 name={t("nav.files")}
                                 type="monotone"
                                 dataKey="file"
-                                stroke="#3f51b5"
+                                stroke="#2196f3"
                             />
                             <Line
                                 name={t("nav.users")}

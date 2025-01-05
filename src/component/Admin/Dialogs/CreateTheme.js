@@ -44,11 +44,11 @@ export default function CreateTheme({ open, onClose, onSubmit }) {
     const [theme, setTheme] = useState({
         palette: {
             primary: {
-                main: "#3f51b5",
+                main: "#2196f3",
                 contrastText: "#fff",
             },
             secondary: {
-                main: "#d81b60",
+                main: "#FFC107",
                 contrastText: "#fff",
             },
         },
@@ -112,7 +112,7 @@ export default function CreateTheme({ open, onClose, onSubmit }) {
                                         "#4caf50",
                                         "#009688",
                                         "#2196f3",
-                                        "#3f51b5",
+                                        "#2196f3",
                                         "#e91e63",
                                         "#000000",
                                         "#666666",

@@ -32,13 +32,13 @@ export const initState = {
                 background: { paper: "#fff", default: "#fafafa" },
                 primary: {
                     light: "#7986cb",
-                    main: "#3f51b5",
+                    main: "#2196f3",
                     dark: "#303f9f",
                     contrastText: "#fff",
                 },
                 secondary: {
                     light: "#ff4081",
-                    main: "#f50057",
+                    main: "#FFC107",
                     dark: "#c51162",
                     contrastText: "#fff",
                 },

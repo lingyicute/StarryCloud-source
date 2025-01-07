@@ -1,41 +1,52 @@
 import React from "react";
-import { Facebook } from "react-content-loader";
-import { makeStyles, useTheme } from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
-    loader: {
-        width: "80%",
-        [theme.breakpoints.up("md")]: {
-            width: " 50%",
+    container: {
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        minHeight: "100vh",
+    },
+    logo: {
+        width: "80px",
+        height: "80px",
+        [theme.breakpoints.up("sm")]: {
+            width: "120px",
+            height: "120px",
         },
-
-        marginTop: 30,
+        [theme.breakpoints.up("md")]: {
+            width: "160px",
+            height: "160px",
+        },
+        [theme.breakpoints.up("lg")]: {
+            width: "200px",
+            height: "200px",
+        },
+        animation: "$fadeInOut 1.5s ease-in-out infinite",
+    },
+    "@keyframes fadeInOut": {
+        "0%": {
+            opacity: 0.4,
+        },
+        "50%": {
+            opacity: 1,
+        },
+        "100%": {
+            opacity: 0.4,
+        },
     },
 }));
 
-const MyLoader = (props) => {
-    return (
-        <Facebook
-            backgroundColor={props.dark ? "#333" : "#f5f6f7"}
-            foregroundColor={props.dark ? "#636363" : "#eee"}
-            className={props.className}
-        />
-    );
-};
-
 function PageLoading() {
-    const theme = useTheme();
     const classes = useStyles();
 
     return (
-        <div
-            style={{
-                textAlign: "center",
-            }}
-        >
-            <MyLoader
-                dark={theme.palette.type === "dark"}
-                className={classes.loader}
+        <div className={classes.container}>
+            <img
+                src="/static/img/cloudreve.svg"
+                alt="Loading..."
+                className={classes.logo}
             />
         </div>
     );

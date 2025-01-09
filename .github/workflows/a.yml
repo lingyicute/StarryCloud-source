@@ -1,0 +1,25 @@
+name: Build test
+
+on:
+  push:
+
+jobs:
+  build-and-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Remove old build file
+        run: |
+          if [ -f build.tar.gz ]; then
+            rm build.tar.gz
+          fi
+
+      - name: Install dependencies and build
+        run: |
+          yarn install
+          yarn build

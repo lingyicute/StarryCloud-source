@@ -1,7 +1,7 @@
 {
   "pageNotFound": "页面不存在",
   "unknownError": "未知错误",
-  "errLoadingSiteConfig": "无法加载站点配置：",
+  "errLoadingSiteConfig": "无法加载数据：",
   "newVersionRefresh": "当前页面有新版本可用，准备刷新。",
   "errorDetails": "错误详情",
   "renderError": "页面渲染出现错误，请尝试刷新此页面。",

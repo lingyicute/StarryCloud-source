@@ -27,7 +27,7 @@ jobs:
       - name: Install dependencies and build
         run: |
           yarn install
-          yarn build
+          CI=false yarn build
 
       - name: Create tar.gz of build
         run: tar -czf build.tar.gz build/

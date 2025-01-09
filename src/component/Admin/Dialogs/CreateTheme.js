@@ -112,7 +112,7 @@ export default function CreateTheme({ open, onClose, onSubmit }) {
                                         "#4caf50",
                                         "#009688",
                                         "#2196f3",
-                                        "#2196f3",
+                                        "#3f51b5",
                                         "#e91e63",
                                         "#000000",
                                         "#666666",
